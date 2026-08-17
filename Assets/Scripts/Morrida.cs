@@ -8,6 +8,7 @@ public class Morrida : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             gameManager.vida = 0;
+            gameManager.Derrota(); 
         }
     }
 }

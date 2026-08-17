@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject painelDerrota;
     public int vida = 4;
     public int vidaMaxima = 6;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject); 
+    }
     public void Dano()
     {
         vida--;
@@ -20,6 +25,8 @@ public class GameManager : MonoBehaviour
         public void Derrota() 
     {
         Debug.Log("Derrota");
+        painelDerrota.SetActive(true);
+        Time.timeScale = 0; 
     }
 
     public void Cura()
