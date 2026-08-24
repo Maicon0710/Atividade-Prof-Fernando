@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 19341824}
   m_Layer: 0
   m_Name: caverna01 (3)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 118578018}
   m_Layer: 0
   m_Name: caverna01 (7)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -395,6 +395,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &196912793 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6774630721251134192, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
+  m_PrefabInstance: {fileID: 635482535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &212581561
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +419,7 @@ GameObject:
   - component: {fileID: 212581564}
   m_Layer: 0
   m_Name: caverna01 (11)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -546,7 +557,7 @@ GameObject:
   - component: {fileID: 216090784}
   m_Layer: 0
   m_Name: caverna01 (4)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -780,7 +791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8122501136353010549, guid: 24dd67c5fed77c34682703e72d62c1d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.03
+      value: -3.25
       objectReference: {fileID: 0}
     - target: {fileID: 8122501136353010549, guid: 24dd67c5fed77c34682703e72d62c1d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -825,6 +836,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6425317606815082645, guid: 24dd67c5fed77c34682703e72d62c1d0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 825368601}
+    - targetCorrespondingSourceObject: {fileID: 6425317606815082645, guid: 24dd67c5fed77c34682703e72d62c1d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 825368602}
   m_SourcePrefab: {fileID: 100100000, guid: 24dd67c5fed77c34682703e72d62c1d0, type: 3}
 --- !u!1 &492416811
 GameObject:
@@ -989,13 +1003,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1055,7 +1069,7 @@ GameObject:
   - component: {fileID: 509831224}
   m_Layer: 0
   m_Name: caverna01 (2)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1180,6 +1194,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.0001464}
   m_EdgeRadius: 0
+--- !u!114 &531735905 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6552543563024057114, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
+  m_PrefabInstance: {fileID: 635482535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &533525144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,8 +1242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -46}
+  m_SizeDelta: {x: 400, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &533525146
 MonoBehaviour:
@@ -1339,7 +1364,7 @@ GameObject:
   - component: {fileID: 635345525}
   m_Layer: 0
   m_Name: caverna01 (9)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1581,7 +1606,7 @@ GameObject:
   - component: {fileID: 668602142}
   m_Layer: 0
   m_Name: caverna05
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1719,7 +1744,7 @@ GameObject:
   - component: {fileID: 688974482}
   m_Layer: 0
   m_Name: caverna01 (5)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1999,7 +2024,7 @@ GameObject:
   - component: {fileID: 760842920}
   m_Layer: 0
   m_Name: caverna05 (1)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2137,7 +2162,7 @@ GameObject:
   - component: {fileID: 814333415}
   m_Layer: 0
   m_Name: caverna01 (1)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2317,6 +2342,97 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   velocidade: 3
+--- !u!95 &825368602
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825368595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 14aabf844fcb4de4b9951d5a54614946, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &890515895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 890515898}
+  - component: {fileID: 890515897}
+  - component: {fileID: 890515896}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &890515896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890515895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da63ad5063091042aa74074171e26b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HUDManager
+  coracoes:
+  - {fileID: 1759502059}
+  - {fileID: 1127232895}
+  - {fileID: 196912793}
+  - {fileID: 531735905}
+  - {fileID: 1606328136}
+  - {fileID: 2083950156}
+  cheio: {fileID: 21300000, guid: b580f8259e0cc36408eceff69c9121ef, type: 3}
+  vazio: {fileID: 21300000, guid: db8d9eb4c04c1b14bacf14b85d38fed1, type: 3}
+--- !u!114 &890515897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890515895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25ca40045e0d8249abcc3c500ba3bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  painelDerrota: {fileID: 0}
+  vida: 4
+  vidaMaxima: 6
+--- !u!4 &890515898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890515895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 225.42422, y: 940.5754, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &897051196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2330,7 +2446,7 @@ GameObject:
   - component: {fileID: 897051199}
   m_Layer: 0
   m_Name: caverna01 (16)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2468,7 +2584,7 @@ GameObject:
   - component: {fileID: 908766923}
   m_Layer: 0
   m_Name: caverna01
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2643,7 +2759,7 @@ GameObject:
   - component: {fileID: 968950883}
   m_Layer: 0
   m_Name: caverna01 (14)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2781,7 +2897,7 @@ GameObject:
   - component: {fileID: 1039682379}
   m_Layer: 0
   m_Name: caverna01 (10)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2919,7 +3035,7 @@ GameObject:
   - component: {fileID: 1117948257}
   m_Layer: 0
   m_Name: caverna01 (15)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3044,6 +3160,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1127232895 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2895909828594194229, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
+  m_PrefabInstance: {fileID: 635482535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!224 &1148867526 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6442659613458822582, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
@@ -3062,7 +3189,7 @@ GameObject:
   - component: {fileID: 1186444778}
   m_Layer: 0
   m_Name: caverna04
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3222,7 +3349,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 4.6, y: 51.8}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 400, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1284188454
 MonoBehaviour:
@@ -3253,8 +3380,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4286242914
+  m_fontColor: {r: 0.38487893, g: 0.8773585, b: 0.47669294, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3271,8 +3398,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49
-  m_fontSizeBase: 49
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3429,7 +3556,7 @@ GameObject:
   - component: {fileID: 1354301680}
   m_Layer: 0
   m_Name: caverna01 (13)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3567,7 +3694,7 @@ GameObject:
   - component: {fileID: 1452174150}
   m_Layer: 0
   m_Name: caverna01 (8)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3705,7 +3832,7 @@ GameObject:
   - component: {fileID: 1519724239}
   m_Layer: 0
   m_Name: caverna01 (12)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3830,6 +3957,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1606328136 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2635351957360578140, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
+  m_PrefabInstance: {fileID: 635482535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &1633126308
 GameObject:
   m_ObjectHideFlags: 0
@@ -3843,7 +3981,7 @@ GameObject:
   - component: {fileID: 1633126311}
   m_Layer: 0
   m_Name: caverna06
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3981,7 +4119,7 @@ GameObject:
   - component: {fileID: 1749039674}
   m_Layer: 0
   m_Name: caverna01 (17)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4106,6 +4244,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1759502059 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2818055154538561114, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
+  m_PrefabInstance: {fileID: 635482535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &1857359818
 GameObject:
   m_ObjectHideFlags: 0
@@ -4119,7 +4268,7 @@ GameObject:
   - component: {fileID: 1857359821}
   m_Layer: 0
   m_Name: caverna05 (2)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4314,7 +4463,7 @@ GameObject:
   - component: {fileID: 1990921803}
   m_Layer: 0
   m_Name: caverna04 (1)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4452,7 +4601,7 @@ GameObject:
   - component: {fileID: 2018304769}
   m_Layer: 0
   m_Name: caverna01 (6)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4577,6 +4726,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2083950156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 982389191848818944, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
+  m_PrefabInstance: {fileID: 635482535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &2102215893
 GameObject:
   m_ObjectHideFlags: 0
@@ -4590,7 +4750,7 @@ GameObject:
   - component: {fileID: 2102215896}
   m_Layer: 0
   m_Name: caverna06 (1)
-  m_TagString: Untagged
+  m_TagString: chao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4725,3 +4885,4 @@ SceneRoots:
   - {fileID: 635482535}
   - {fileID: 352069692}
   - {fileID: 492416814}
+  - {fileID: 890515898}

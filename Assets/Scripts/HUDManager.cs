@@ -7,7 +7,12 @@ public class HUDManager : MonoBehaviour
     public Image[] coracoes;
     public Sprite cheio;
     public Sprite vazio;
-    public GameManager gameManager;
+    private GameManager gameManager;
+
+    private void Start()
+    {
+        gameManager = FindFirstObjectByType<GameManager>(); 
+    }
 
     void Update()
     {

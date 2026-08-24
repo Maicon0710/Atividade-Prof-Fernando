@@ -593,6 +593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   gameManager: {fileID: 520335743}
   somDano: {fileID: 8300000, guid: d99cc8e9b9dbd9844a92db2cb5925bd8, type: 3}
+  animator: {fileID: 1685564433}
 --- !u!61 &89700390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1234,7 +1235,6 @@ MonoBehaviour:
   - {fileID: 491918306}
   cheio: {fileID: 21300000, guid: b580f8259e0cc36408eceff69c9121ef, type: 3}
   vazio: {fileID: 21300000, guid: db8d9eb4c04c1b14bacf14b85d38fed1, type: 3}
-  gameManager: {fileID: 520335743}
 --- !u!114 &520335743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2626,7 +2626,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2654,7 +2654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1572e3b0a9865054db35419d9cbf3341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 520335743}
 --- !u!114 &967447943 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2895909828594194229, guid: 8c68b9f3bd8687f46929e0efefcef48c, type: 3}
@@ -5637,6 +5637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Obstaculo
   gameManager: {fileID: 520335743}
   somDano: {fileID: 8300000, guid: d99cc8e9b9dbd9844a92db2cb5925bd8, type: 3}
+  animator: {fileID: 1685564433}
 --- !u!61 &1755078818
 BoxCollider2D:
   m_ObjectHideFlags: 0
