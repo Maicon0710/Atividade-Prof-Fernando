@@ -9,7 +9,7 @@ public class Portal : MonoBehaviour
         {
             if (collision.CompareTag("Player"))
             {
-                SceneManager.LoadScene("Fase2");
+                SceneManager.LoadScene("Fase02");
             }
         }
 

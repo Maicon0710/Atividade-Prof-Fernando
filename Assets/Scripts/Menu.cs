@@ -5,7 +5,7 @@ public class Menu : MonoBehaviour
     //Função para o botão iniciar
     public void IniciarJogo()
     {
-        SceneManager.LoadScene("Fase1");
+        SceneManager.LoadScene("Fase01");
     }
     
     //Função para o botão Sair

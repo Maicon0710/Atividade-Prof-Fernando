@@ -8,6 +8,6 @@ public class TelaInicial : MonoBehaviour
         GameManager gameManager = FindAnyObjectByType<GameManager>();
         if (gameManager != null ) Destroy( gameManager.gameObject);
         Time.timeScale = 1;
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Menu01");
     }
 }
